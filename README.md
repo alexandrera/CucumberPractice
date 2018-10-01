@@ -1,5 +1,3 @@
-"# Notes" 
-
  -- Setup instructions for windows -- 
 
 1. Install Chocolatey
