@@ -13,20 +13,25 @@ Command to install chocolatey (command prompt):
 Before we begin, you will need the following:
 
 Java SE (Java 9 is not yet supported by Cucumber)
+
 Maven - version 3.3.1 or higher
-IntelliJ IDEA (which will be used in this tutorial)
-IntelliJ IDEA Cucumber for Java plugin
+
 Eclipse (a good alternative if you don’t use IntelliJ)
+
 Cucumber Eclipse
 
 Use chocolatey to install the items above if you don't have them (command prompt):
+
 C:\> choco install jdk8
+
 C:\> choco install maven
+
 C:\> choco install eclipse
 
 3. Add the file selenium-server-standalone-3.14.0.jar and chromedriver.exe in the (C:) drive
 
 Selenium Server: https://goo.gl/FCSwwD
+
 Chromedriver: 	 https://chromedriver.storage.googleapis.com/index.html?path=2.42/
 
 4. Clone the project into a folder
@@ -40,6 +45,7 @@ mvn test
 or
 
 Scenario outline: mvn test -Dcucumber.options="--tags @outline"
+
 Scenario: 		  mvn test -Dcucumber.options="--tags @smoke"
 
 -- Why --
